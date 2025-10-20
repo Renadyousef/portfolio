@@ -6,7 +6,33 @@ const projects = [  {
       { label: "GitHub Repo", url: "https://github.com/Renadyousef/spark-job-on-EMR" },
       { label: "Research Paper", url: "https://drive.google.com/file/d/1pC9p48_hBiSylzA-zOKRDW27lBiMuAKC/view" }
     ]
-  },{
+  },
+  {
+  name: "Markaz Quiz Generator Model",
+  description: `
+    <ul>
+      <li>AI-powered quiz generation module for the <b>Markaz web App</b> study platform</li>
+      <li>Uses <b>NLP</b> and <b>Generative AI</b> (Hugging Face & GPT models) to create context-based quizzes from Arabic study materials</li>
+      <li>Generates diverse question types:MCQs, fill-in-the-blanks,TF</li>
+          <li>Deployed as a <b>Flask microservice</b> with a dedicated API route integrated into the main React/Express app</li>
+
+    </ul>
+  `,
+  media: "test.png",
+  links: [
+      { label: "GitHub Repo", url: "https://github.com/Renadyousef/Markaz-NLP-model" }]
+}
+,
+   {
+    name: "Spam Email Classifier (NLP Project) 🚨",
+    description: "Spam emails often contain scams, phishing links, or unwanted ads that can put users at risk. This project tackles the challenge of automatically detecting and classifying emails as spam or ham using Natural Language Processing (NLP) techniques. The goal is to improve email security and reduce user exposure to unsafe or irrelevant content.",
+    media: "spam.png",
+    links: [
+      { label: "GitHub Repo", url: "https://github.com/Renadyousef/SWE485-Project-Group1" }
+    ]
+  },
+  
+  {
   name: "Markaz [under progress graduation project]",
   description: `
     <ul>
@@ -23,7 +49,11 @@ const projects = [  {
 }, {
   name: "Smart Schedule [under progress]",
   description: "Smart Schedule is a university schedule automation app built with React/Express. It highlights new skills from this semester:containers, deployment, security, and DevOps practices, delivering a mobile-first, scalable platform.",
-  url: "https://github.com/Renadyousef/Smart-schedule-",
+
+  links: [
+      { label: "GitHub Repo", url: "https://github.com/Renadyousef/Smart-schedule-"},
+       { label:"Public link of the website", url:"https://smart-schedule-phi.vercel.app/"}
+       ],
   media: "SmartSchedule.png"
 }
 
