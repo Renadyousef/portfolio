@@ -1,13 +1,14 @@
 const projects = [
      
       {
-        name: "Markaz Quiz Generator Model",
+        name: "Markaz Quiz Generator Model [Arabic Generative AI]",
         description: `
           <ul>
             <li>AI-powered quiz generation module for the <b>Markaz web App</b> study platform</li>
             <li>Uses <b>NLP</b> and <b>Generative AI</b> (Hugging Face & GPT models) to create context-based quizzes from Arabic study materials</li>
             <li>Generates diverse question types: MCQs, fill-in-the-blanks, TF</li>
             <li>Deployed as a <b>Flask microservice</b> with a dedicated API route integrated into the main React/Express app</li>
+             <li>Nlp-Tasks evalution methodolgy testing with <b>domain and human-based testing</b></li>
           </ul>
         `,
         media: "test.png",
@@ -16,7 +17,7 @@ const projects = [
         ]
       },
      {
-        name: "Markaz [under progress graduation project]",
+        name: "Markaz [graduation project]",
         description: `
           <ul>
             <li>AI-powered Arabic study tool built with React/Express</li>
@@ -36,8 +37,9 @@ const projects = [
         ]
       },
       {
-        name: "Smart Schedule [under progress, continuous prototype deployed below]",
-        description: "Smart Schedule is a university schedule automation app built with React/Express. It highlights new skills from this semester: containers, deployment, security, and DevOps practices, delivering a mobile-first, scalable platform.",
+        name: "Smart Schedule [prototype deployed below]",
+        description: "Smart Schedule is a university schedule automation platform built with React and Express.js. The project demonstrates skills in containerization, deployment, web security, and DevOps practices, delivering a mobile-first, scalable architecture."+
++"Note: Some production features are currently disabled due to service cost limitations. Recruiters can still log in using GitHub OAuth to explore core functionality.",
         links: [
           { label: "GitHub Repo", url: "https://github.com/Renadyousef/Smart-schedule-" },
           { label: "Public link of the website", url: "https://smart-schedule-phi.vercel.app/" }
@@ -65,7 +67,7 @@ const projects = [
         media: "FakeNewsClassifier.png"
       },
         {
-        name: "Spam Email Classifier (NLP Project) 🚨 [under-progress]",
+        name: "Spam Email Classifier (NLP Project) 🚨",
         description: "Spam emails often contain scams, phishing links, or unwanted ads that can put users at risk. This project tackles the challenge of automatically detecting and classifying emails as spam or ham using Natural Language Processing (NLP) techniques. The goal is to improve email security and reduce user exposure to unsafe or irrelevant content.",
         media: "spam.png",
         links: [
