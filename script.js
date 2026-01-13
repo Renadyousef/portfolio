@@ -38,8 +38,7 @@ const projects = [
       },
       {
         name: "Smart Schedule [prototype deployed below]",
-        description: "Smart Schedule is a university schedule automation platform built with React and Express.js. The project demonstrates skills in containerization, deployment, web security, and DevOps practices, delivering a mobile-first, scalable architecture."+
-+"Note: Some production features are currently disabled due to service cost limitations. Recruiters can still log in using GitHub OAuth to explore core functionality.",
+        description: "Smart Schedule is a university schedule automation platform built with React and Express.js. The project demonstrates skills in containerization, deployment, web security, and DevOps practices, delivering a mobile-first, scalable architecture.Note: Some production features are currently disabled due to service cost limitations. Recruiters can still log in using GitHub OAuth to explore core functionality.",
         links: [
           { label: "GitHub Repo", url: "https://github.com/Renadyousef/Smart-schedule-" },
           { label: "Public link of the website", url: "https://smart-schedule-phi.vercel.app/" }
